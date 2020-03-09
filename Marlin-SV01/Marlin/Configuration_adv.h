@@ -23,6 +23,7 @@
 
 /**
  * Configuration_adv.h
+ * If it doesn't work, I am gonna jump out of the window!
  *
  * Advanced settings.
  * Only change these if you know exactly what you're doing.
