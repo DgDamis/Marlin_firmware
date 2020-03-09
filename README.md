@@ -1,5 +1,5 @@
-This version is a merge of "thr33thirteen", "prahjister" and "coptertec" versions
-It was mixed so I would have favourite features available even in version that support SKR mini E3 1.2 board.
+This version is a merge of "thr33thirteen", "prahjister" and "coptertec" versions <br>
+It was mixed so I would have my favourite features available even in the version that supports SKR mini E3 1.2 board. <br>
 
 Correspoding links to mentioned creators: 
  thr33thirteen  -> github.com/thr33thirteen/SV01-skr-e3-mini-1.2 <br>
