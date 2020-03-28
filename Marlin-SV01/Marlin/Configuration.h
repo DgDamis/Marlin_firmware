@@ -433,6 +433,7 @@
 
 // Below this temperature the heater will be switched off
 // because it probably indicates a broken thermistor wire.
+
 #define HEATER_0_MINTEMP   5
 #define HEATER_1_MINTEMP   5
 #define HEATER_2_MINTEMP   5
@@ -1067,10 +1068,10 @@
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
-#define Z_MIN_POS 300
+#define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 300
+#define Z_MAX_POS 310
 
 /**
  * Software Endstops
@@ -1972,10 +1973,7 @@
 //
 // AZSMZ 12864 LCD with SD
 // https://www.aliexpress.com/item/32837222770.html
-// Silvergate GLCD controller
-// http://github.com/android444/Silvergate
-//
-//#define SILVER_GATE_GLCD_CONTROLLER
+//#define AZSMZ_12864
 
 //=============================================================================
 //==============================  OLED Displays  ==============================
@@ -2091,7 +2089,6 @@
 // Use software PWM to drive the fan, as for the heaters. This uses a very low frequency
 // which is not as annoying as with the hardware PWM. On the other hand, if this frequency
 // is too low, you should also increment SOFT_PWM_SCALE.
-
 //#define FAN_SOFT_PWM
 
 // Incrementing this by 1 will double the software PWM frequency,
