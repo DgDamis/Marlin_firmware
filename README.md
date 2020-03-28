@@ -7,7 +7,7 @@ Correspoding links to mentioned creators: <br>
  coptertec      -> github.com/CopterTec/Marlin-Sovol_SV01 <br>
 
 # SV01-skr-e3-mini-1.2
-Firmware for Sovol SV01 with the BigTreeTech SKR E3 Mini v1.2 with the LCD12864 (ender) screen and BL touch. Enables Linear Advance. 
+Firmware for Sovol SV01 with the <b>BigTreeTech SKR E3 Mini v1.2</b> with the LCD12864 (ender) screen and BL touch. Enables Linear Advance. 
 This is a work in progress. It will produce usable prints but my not be 100% error free.
 
 Place the firmware.bin file on the micro sd card, insert it into the skr board and boot. It should flash the firmware.
